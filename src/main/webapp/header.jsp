@@ -1,5 +1,6 @@
 <link href="resources/css/bootstrap.min.css" rel="stylesheet" />
 <link href="resources/css/styles.css" rel="stylesheet" />
+<link href="resources/css/bootstrap-icons.css" rel="stylesheet" />
 
 <div class="header">
 	<div class="brand">
@@ -10,16 +11,16 @@
 
 		<div class="btn-group">
 			<button class="btn btn-danger btn-sm dropdown-toggle" type="button"
-				data-toggle="dropdown" aria-expanded="false">Restaurantes</button>
+				data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-building"></i> Restaurantes</button>
 			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-				<a class="dropdown-item" href="add-restaurant.jsp">Adicionar</a>
-				<a class="dropdown-item" href="restaurant.jsp">Listar</a>
+				<a class="dropdown-item" href="add-restaurant.jsp"> <i class="bi bi-plus-circle-fill"></i> Adicionar</a>
+				<a class="dropdown-item" href="restaurant.jsp"> <i class="bi bi-card-checklist"></i> Listar</a>
 			</div>
 		</div>
 
 		<div class="btn-group">
 			<button class="btn btn-danger btn-sm dropdown-toggle" type="button"
-				data-toggle="dropdown" aria-expanded="false" arua>Insights
+				data-toggle="dropdown" aria-expanded="false" arua> <i class="bi bi-lightbulb"></i> Insights
 			</button>
 			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 				<a class="dropdown-item" href="#">Insights 1</a>
