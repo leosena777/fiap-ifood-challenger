@@ -1,0 +1,27 @@
+.logo {
+	width: 80px;
+}
+
+body {
+	background: #f7f7f7;
+}
+
+.header {
+	width: 100%;
+	color: #ea1d2c;
+	padding: 15px;
+	font-size: 22px;
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand {
+	display: flex;
+	flex: 1;
+}
+
+.menu-nav {
+	width: 250px;
+}
